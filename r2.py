@@ -21,8 +21,8 @@ def convert(lines):
 		elif name == 'Tom':
 			for m in s[2:]:
 				tom_word_count += len(m)
-	print('andy說了', andy_word_count)
-	print('tom說了', tom_word_count)	
+	print('andy說了', andy_word_count, '個字')
+	print('tom說了', tom_word_count, '個字')	
 		# print(s)
 
 
